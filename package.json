@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.7.0",
+    "ember-auto-import": "^2.6.3",
     "ember-cli": "~3.28.0",
     "ember-cli-dependency-checker": "^2.0.0",
     "ember-cli-eslint": "^4.2.1",
@@ -47,7 +48,8 @@
     "eslint-plugin-ember": "^5.0.0",
     "eslint-plugin-node": "^6.0.1",
     "loader.js": "^4.2.3",
-    "qunit-dom": "^0.6.2"
+    "qunit-dom": "^0.6.2",
+    "webpack": "^5.88.2"
   },
   "engines": {
     "node": "16.* || 18.*"

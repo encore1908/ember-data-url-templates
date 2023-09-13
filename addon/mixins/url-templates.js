@@ -2,6 +2,7 @@ import { isArray } from '@ember/array';
 import { typeOf } from '@ember/utils';
 import Mixin from '@ember/object/mixin';
 import EmberObject from '@ember/object';
+import UriTemplate from 'uri-templates';
 import { assign } from '@ember/polyfills';
 import { LINK_PREFIX } from "ember-data-url-templates/mixins/url-templates-serializer";
 import flattenQueryParams from 'ember-data-url-templates/utils/flatten-query-params';
@@ -48,7 +49,7 @@ export default Mixin.create({
   },
 
   compileTemplate(template) {
-    return window.UriTemplate(template);
+    return UriTemplate(template);
   },
 
   // TODO: Add ability to customize templateResolver
