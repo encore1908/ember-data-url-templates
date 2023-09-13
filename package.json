@@ -1,6 +1,6 @@
 {
   "name": "ember-data-url-templates",
-  "version": "0.4.5",
+  "version": "0.5.0",
   "description": "An ember-addon to allow building urls with url templates instead of defining buildURL.",
   "keywords": [
     "ember-addon"
@@ -11,7 +11,6 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "https://github.com/amiel/ember-data-url-templates",
   "scripts": {
     "build": "ember build",
     "lint:js": "eslint .",
@@ -20,13 +19,13 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.6.0",
+    "ember-cli-babel": "^7.26.11",
     "ember-cli-uri-templates-shim": "^0.0.2"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.7.0",
     "ember-ajax": "^3.0.0",
-    "ember-cli": "~3.3.0",
+    "ember-cli": "~3.28.0",
     "ember-cli-dependency-checker": "^2.0.0",
     "ember-cli-eslint": "^4.2.1",
     "ember-cli-htmlbars": "^2.0.1",
@@ -37,13 +36,13 @@
     "ember-cli-shims": "^1.2.0",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^2.0.0",
-    "ember-data": "~3.5.0",
+    "ember-data": "~3.28.0",
     "ember-disable-prototype-extensions": "^1.1.2",
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.1.0",
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-resolver": "^4.0.0",
-    "ember-source": "~3.3.0",
+    "ember-source": "3.28.12",
     "ember-source-channel-url": "^1.0.1",
     "ember-try": "^0.2.23",
     "eslint-plugin-ember": "^5.0.0",
@@ -52,7 +51,7 @@
     "qunit-dom": "^0.6.2"
   },
   "engines": {
-    "node": "6.* || 8.* || >= 10.*"
+    "node": "^16.0"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
