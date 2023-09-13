@@ -48,7 +48,7 @@ export default Mixin.create({
   },
 
   compileTemplate(template) {
-    return global.UriTemplate(template);
+    return window.UriTemplate(template);
   },
 
   // TODO: Add ability to customize templateResolver
