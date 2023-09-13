@@ -1,6 +1,6 @@
 {
   "name": "ember-data-url-templates",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "An ember-addon to allow building urls with url templates instead of defining buildURL.",
   "keywords": [
     "ember-addon"
@@ -24,7 +24,6 @@
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.7.0",
-    "ember-ajax": "^3.0.0",
     "ember-auto-import": "^2.6.3",
     "ember-cli": "~3.28.0",
     "ember-cli-dependency-checker": "^2.0.0",
@@ -32,7 +31,7 @@
     "ember-cli-htmlbars": "^2.0.1",
     "ember-cli-htmlbars-inline-precompile": "^1.0.0",
     "ember-cli-inject-live-reload": "^1.4.1",
-    "ember-cli-mirage": "^0.4.9",
+    "ember-cli-mirage": "^2.4.0",
     "ember-cli-qunit": "^4.3.2",
     "ember-cli-shims": "^1.2.0",
     "ember-cli-sri": "^2.1.0",
@@ -40,9 +39,9 @@
     "ember-data": "~3.28.0",
     "ember-disable-prototype-extensions": "^1.1.2",
     "ember-export-application-global": "^2.0.0",
-    "ember-load-initializers": "^1.1.0",
+    "ember-load-initializers": "^2.1.0",
     "ember-maybe-import-regenerator": "^0.1.6",
-    "ember-resolver": "^4.0.0",
+    "ember-resolver": "^8.1.0",
     "ember-source": "3.28.12",
     "ember-source-channel-url": "^1.0.1",
     "ember-try": "^0.2.23",
